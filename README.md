@@ -1,1 +1,2 @@
 # Spell-checker
+This Python script implements a basic spell checker using edit distance and a frequency dictionary. The get_words function tokenizes text into words, while candidates generates candidate words with an edit distance of 1. The spell_checker function corrects misspelled words in the input text based on the provided word frequency dictionary. Finally, in the if __name__ == "__main__": block, a sample word frequency dictionary and text are provided for demonstration purposes, and the corrected text is printed.
